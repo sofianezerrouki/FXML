@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication16.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="an_menu" prefHeight="500.0" prefWidth="220.0" style="-fx-background-color: #ee3d63;">
+         <children>
+            <Pane prefHeight="39.0" prefWidth="220.0" style="-fx-background-color: #ff4444;">
+               <children>
+                  <Label layoutX="72.0" layoutY="11.0" text="COMPOSE" textFill="WHITE" />
+               </children>
+            </Pane>
+            <JFXButton graphicTextGap="15.0" layoutX="23.0" layoutY="102.0" prefHeight="39.0" prefWidth="174.0" text="    IN_BOX" textFill="WHITE" textOverrun="WORD_ELLIPSIS" />
+            <JFXButton graphicTextGap="15.0" layoutX="23.0" layoutY="299.0" prefHeight="39.0" prefWidth="174.0" text="BIN" textFill="WHITE" textOverrun="WORD_ELLIPSIS" />
+            <JFXButton graphicTextGap="15.0" layoutX="23.0" layoutY="260.0" prefHeight="39.0" prefWidth="174.0" text="  BOOK" textFill="WHITE" textOverrun="WORD_ELLIPSIS" />
+            <JFXButton graphicTextGap="15.0" layoutX="23.0" layoutY="221.0" prefHeight="39.0" prefWidth="174.0" text="   JUNIC" textFill="WHITE" textOverrun="WORD_ELLIPSIS" />
+            <JFXButton graphicTextGap="15.0" layoutX="23.0" layoutY="183.0" prefHeight="39.0" prefWidth="174.0" text="   DRAFS" textFill="WHITE" textOverrun="WORD_ELLIPSIS" />
+            <JFXButton graphicTextGap="15.0" layoutX="23.0" layoutY="142.0" prefHeight="39.0" prefWidth="174.0" text=" SENT" textFill="WHITE" textOverrun="WORD_ELLIPSIS" />
+            <MaterialDesignIconView fill="WHITE" glyphName="NEAR_ME" layoutX="66.0" layoutY="168.0" size="15" />
+            <MaterialDesignIconView fill="WHITE" glyphName="INBOX" layoutX="66.0" layoutY="128.0" size="15" />
+            <MaterialDesignIconView fill="WHITE" glyphName="DO_NOT_DISTRAB" layoutX="66.0" layoutY="209.0" size="15" text="" />
+            <MaterialDesignIconView fill="WHITE" glyphName="DELETE" layoutX="66.0" layoutY="247.0" size="15" />
+            <MaterialDesignIconView fill="WHITE" glyphName="BOOK" layoutX="66.0" layoutY="285.0" size="15" text="" />
+            <MaterialDesignIconView fill="WHITE" glyphName="TREE" layoutX="66.0" layoutY="324.0" size="15" text="" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="an_message" layoutX="219.0" prefHeight="500.0" prefWidth="276.0" style="-fx-background-color: #c0324c;">
+         <children>
+            <Pane prefHeight="39.0" prefWidth="276.0" style="-fx-background-color: #c0324c;">
+               <children>
+                  <Label layoutX="23.0" layoutY="11.0" text="SORT" textFill="WHITE" />
+                  <MaterialDesignIconView fill="WHITE" glyphName="SORT_DESCENDING" layoutX="235.0" layoutY="26.0" size="18" />
+               </children>
+            </Pane>
+            <MaterialDesignIconView fill="WHITE" glyphName="REDO" layoutX="230.0" layoutY="81.0" size="18" />
+            <JFXTextField focusColor="#fafbff" layoutX="25.0" layoutY="63.0" prefHeight="25.0" prefWidth="227.0" promptText="Search" unFocusColor="#ff8989" />
+            <Pane layoutX="29.0" layoutY="112.0" prefHeight="112.0" prefWidth="220.0" style="-fx-background-color: #c04060; -fx-background-radius: 2em;">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="29.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/jimmy.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="45.0" layoutY="13.0" text="jimmy" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="45.0" layoutY="32.0" text="hello in my first &#10;designe with java fx &#10;Thanks a llot for your &#10;presentation ....&#10;" textFill="#c9c0c0" />
+               </children>
+            </Pane>
+            <Pane layoutX="28.0" layoutY="241.0" prefHeight="95.0" prefWidth="227.0" style="-fx-background-color: #fff; -fx-background-radius: 2em;">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="29.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/jimmy.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="45.0" layoutY="13.0" text="jimmy" textFill="#9a3232">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="45.0" layoutY="32.0" text="hello in my first &#10;designe with java fx &#10;Thanks a llot .&#10;" textFill="#837a7a" />
+               </children>
+            </Pane>
+            <Pane layoutX="28.0" layoutY="354.0" prefHeight="112.0" prefWidth="220.0" style="-fx-background-color: #c04060; -fx-background-radius: 2em;">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="29.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/jimmy.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="45.0" layoutY="13.0" text="jimmy" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="45.0" layoutY="32.0" text="hello in my first &#10;designe with java fx &#10;Thanks a llot for your &#10;presentation ....&#10;" textFill="#c9c0c0" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="an_content" layoutX="495.0" prefHeight="500.0" prefWidth="291.0">
+         <children>
+            <Pane layoutX="1.0" prefHeight="39.0" prefWidth="304.0" style="-fx-background-color: #ba2e49;">
+               <children>
+                  <MaterialDesignIconView fx:id="btnClose" fill="WHITE" glyphName="CLOSE" layoutX="261.0" layoutY="26.0" onMouseClicked="#closeFenetre" size="22" wrappingWidth="28.886723518371582" />
+               </children>
+            </Pane>
+            <Pane layoutX="15.0" layoutY="102.0" prefHeight="314.0" prefWidth="276.0" style="-fx-background-color: #fff; -fx-background-radius: 5em;">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="29.0" layoutX="40.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/jimmy.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="71.0" layoutY="24.0" text="jimmy" textFill="#907f7f">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="60.0" prefHeight="151.0" prefWidth="200.0" text="hello in my first &#10;designe with java fx &#10;Thanks a llot for your &#10;presentation ....&#10;hello in my first &#10;designe with java fx &#10;Thanks a llot for your &#10;presentation ....&#10;" textFill="#5e5757" />
+               </children>
+            </Pane>
+            <Label layoutX="27.0" layoutY="63.0" text="COMPOSE" />
+            <Pane layoutX="19.0" layoutY="439.0" prefHeight="39.0" prefWidth="268.0" style="-fx-background-color: #fff; -fx-background-radius: 5em;">
+               <children>
+                  <Label layoutX="22.0" layoutY="9.0" text="COMPOSE COMPOSE COMPOSE" textFill="#a89494" />
+                  <MaterialDesignIconView fill="#070707" glyphName="PIN" layoutX="236.0" layoutY="24.0" size="18" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
